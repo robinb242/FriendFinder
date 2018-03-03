@@ -2,7 +2,7 @@
 The name says it all. Fill out a short survey and the app will find other users with similar innterests.
 
 ## Usage
-Frome the home page click the button to take the survey. Enter your name, a link to a photo of yourself, and answer all the questions in the survey. Click the submit button and a modal pops up with the name and oicture of the user who answered the questionaire wit hanswers most similar to your own. There is no database so once the server is disconnected all entered users, their picture and survey results disappear.
+To run locally, you will have to start the server.js from the command line, then navigate to localhost:8080 in your browser. From the home page click the button to take the survey. Enter your name, a link to a photo of yourself, and answer all the questions in the survey. Click the submit button and a modal pops up with the name and oicture of the user who answered the questionaire wit hanswers most similar to your own. There is no database so once the server is disconnected all entered users, their picture and survey results disappear.
 
 ## Modules
 ### Express
@@ -12,7 +12,12 @@ Parses the JSON data. A new body object containing the parsed data is populated 
 ### Path
 Provides utilities for working with file and directory paths. path.dirname(path).
 ### Nodemon
-Nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application. use "nodemon" in place of "node" when starting your server. <'$ nodemon server.js'>.
+Nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application. use "nodemon" in place of "node" when starting your server. '<$ nodemon server.js>'.
+## Installation
+You will have to *npm init* and *install* all of the modules listed above in your local directory in order for the application to work locally. run *$ nodemon server.js* from the command line to start a local server.
+
+
+This code is open source. feel free to borrow from it as long as you keep the modifications open source as well.
 
 Copyright <2018> <Robin Betuccelli>
 

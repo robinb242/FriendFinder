@@ -1,21 +1,15 @@
 var path = require("path");
 
 
-// ===============================================================================
-// ROUTING
-// ===============================================================================
-
+// degines routing paths
 module.exports = function(app) {
-  // HTML GET Requests
-  // Below code handles when users "visit" a page.
-  // In each of the below cases the user is shown an HTML page of content
-  // ---------------------------------------------------------------------------
 
+//creates url paths to be populated
   app.get('/survey', function (req, res) {
     res.sendFile(path.join(__dirname + '/../public/survey.html'));
   });
 
-  //a USE route to home page
+//use this as home page
   app.use(function (req, res) {
     res.sendFile(path.join(__dirname + '/../public/home.html'));
   });

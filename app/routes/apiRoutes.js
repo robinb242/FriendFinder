@@ -1,4 +1,4 @@
-//loadinng data from arrays in friends.js
+//loading data from arrays in friends.js
 
 var friendList = require("../data/friends.js");
 

@@ -1,3 +1,5 @@
+//Array of friends and their propeties
+
 var friendList = [
   {
     name: "Robin Bertuccelli",
